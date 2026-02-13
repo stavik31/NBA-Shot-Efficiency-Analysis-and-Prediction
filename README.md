@@ -111,6 +111,7 @@ Although shot outcomes are inherently noisy due to missing contextual variables 
 
 ```text
 xPts = P(shot made) × shot value
+```
 
 This represents the league-average expected outcome for a given shot.
 
@@ -118,3 +119,27 @@ This represents the league-average expected outcome for a given shot.
 
 ```text
 POE = actual points − xPts
+```
+POE separates:
+
+- **Shot Quality** — difficulty of attempts  
+- **Shot Making** — ability to outperform expectation  
+
+## Case Study: Miami Heat & Jaime Jaquez Jr.
+
+The trained MLP model was applied to early **2025–26 NBA season** data to demonstrate real-world usage.
+
+### Key Findings
+
+- Miami Heat players tend to take **lower-probability shots** relative to league average  
+- **Jaime Jaquez Jr.** consistently outperformed expected efficiency, particularly:
+  - In the restricted area and mid-range  
+  - On dunks, layups, and fadeaways  
+
+These insights illustrate how **xPts** and **POE** can support:
+
+- Player development strategies  
+- Scouting and opponent preparation  
+- Shot selection optimization  
+
+
