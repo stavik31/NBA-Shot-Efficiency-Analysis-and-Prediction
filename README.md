@@ -111,3 +111,10 @@ Although shot outcomes are inherently noisy due to missing contextual variables 
 
 ```text
 xPts = P(shot made) × shot value
+
+This represents the league-average expected outcome for a given shot.
+
+### Points Over Expectation (POE)
+
+```text
+POE = actual points − xPts
